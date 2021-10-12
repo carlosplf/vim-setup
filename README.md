@@ -6,4 +6,4 @@ Just make sure that you have Vundle installed.
 
 [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-![alt text](screenshot.png "VIM Screenshot")
+![alt text](screenshot-2.png "VIM Screenshot")
