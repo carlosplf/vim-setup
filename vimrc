@@ -11,6 +11,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
