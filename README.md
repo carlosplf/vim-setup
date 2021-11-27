@@ -3,7 +3,7 @@
 This vimrc uses Vundle as Plugin Manager!
 
 
-####Plugins used:
+#### Plugins used:
 
 [Vundle](https://github.com/VundleVim/Vundle.vim)
 [NERDTree](https://github.com/preservim/nerdtree)
@@ -15,7 +15,7 @@ This vimrc uses Vundle as Plugin Manager!
 
 ![alt text](screenshot-2.png "VIM Screenshot")
 
-###How to install:
+### How to install:
 
 Install Vundle:
     
