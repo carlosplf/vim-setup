@@ -6,11 +6,17 @@ This vimrc uses Vundle as Plugin Manager!
 #### Plugins used:
 
 [Vundle](https://github.com/VundleVim/Vundle.vim)
+
 [NERDTree](https://github.com/preservim/nerdtree)
+
 [Jedi-VIM](https://github.com/davidhalter/jedi-vim)
+
 [VIM-Airline](https://github.com/vim-airline/vim-airline)
+
 [VIM-Airline-Themes](https://github.com/vim-airline/vim-airline-themes)
+
 [VIM-Polyglot](https://github.com/sheerun/vim-polyglot)
+
 [VIM-JavaScript](https://github.com/pangloss/vim-javascript)
 
 ![alt text](screenshot-2.png "VIM Screenshot")
