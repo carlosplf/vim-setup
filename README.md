@@ -25,7 +25,7 @@ Install Vundle:
     
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-Install ![YCM](https://github.com/ycm-core/YouCompleteMe)
+Install [YCM](https://github.com/ycm-core/YouCompleteMe)
 
 Copy files:
 
