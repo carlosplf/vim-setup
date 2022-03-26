@@ -9,8 +9,6 @@ This vimrc uses Vundle as Plugin Manager!
 
 [NERDTree](https://github.com/preservim/nerdtree)
 
-[Jedi-VIM](https://github.com/davidhalter/jedi-vim)
-
 [VIM-Airline](https://github.com/vim-airline/vim-airline)
 
 [VIM-Airline-Themes](https://github.com/vim-airline/vim-airline-themes)
@@ -26,6 +24,8 @@ This vimrc uses Vundle as Plugin Manager!
 Install Vundle:
     
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+Install ![YCM](https://github.com/ycm-core/YouCompleteMe)
 
 Copy files:
 
