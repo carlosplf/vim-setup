@@ -12,6 +12,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'pangloss/vim-javascript'
 Plugin 'ycm-core/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'nvie/vim-flake8'
 
 call vundle#end()
 filetype plugin indent on
@@ -38,3 +40,12 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " Disable preview after insert
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" Autoclose VIM if NerdTree is the last window
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" NredTree size
+:let g:NERDTreeWinSize=26
+
+let python_highlight_all=1
+syntax on
