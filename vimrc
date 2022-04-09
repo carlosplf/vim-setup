@@ -47,5 +47,9 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 " NredTree size
 :let g:NERDTreeWinSize=26
 
+" Python syntax
 let python_highlight_all=1
 syntax on
+
+"Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
