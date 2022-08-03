@@ -51,5 +51,8 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 let python_highlight_all=1
 syntax on
 
-"Remove all trailing whitespace by pressing F5
+" Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" Keep terminal transparency
+hi Normal guibg=NONE ctermbg=NONE
