@@ -56,3 +56,6 @@ nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 
 " Keep terminal transparency
 hi Normal guibg=NONE ctermbg=NONE
+
+" Enable mouse cursor
+set mouse=a
